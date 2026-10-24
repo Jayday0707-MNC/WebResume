@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | Nkosinathi Msimango</title>
-  <meta name="description" content="Full-stack projects by Nkosinathi Msimango: Triage (multi-tenant helpdesk SaaS), Taskboard and WIL Connect.">
+  <meta name="description" content="Full-stack projects by Nkosinathi Msimango: Mend (community outage reporting), Triage (multi-tenant helpdesk SaaS), Taskboard and WIL Connect.">
   <meta name="theme-color" content="#FFC52E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
       </ul>
     </nav>
     <h1 class="page-title"><span class="line"><span>Projects</span></span></h1>
-    <p class="page-intro">Three full-stack projects, from a multi-tenant SaaS to my final-year placement platform.</p>
+    <p class="page-intro">Four full-stack projects, from a community reporting platform and a multi-tenant SaaS to my final-year placement platform.</p>
   </div>
 </header>
 
@@ -35,6 +35,19 @@
   <section class="section">
     <div class="wrap">
       <div class="list">
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Mend</h3>
+            <p class="meta">Community outage reporting, 2026</p>
+          </div>
+          <div class="project-body">
+            <p>Residents report water, power and road faults by dropping a pin on a map. Neighbours confirm an existing report instead of filing a duplicate, and moderators move each one through to resolved, with a public history.</p>
+            <p>It catches duplicates by distance (within 250 m), marks a report as confirmed once enough people are affected, and checks moderator roles against the database. A public status page shows progress without personal data, with locations rounded to about 100 m and rate-limited APIs.</p>
+            <p class="stack">React (Vite), Leaflet, Node.js, Express, PostgreSQL (Neon), JWT</p>
+            <a class="link" href="https://github.com/Jayday0707-MNC/mend" target="_blank" rel="noopener">View code on GitHub</a>
+          </div>
+        </article>
 
         <article class="project">
           <div class="project-head">
