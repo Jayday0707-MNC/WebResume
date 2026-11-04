@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | Nkosinathi Msimango</title>
-  <meta name="description" content="Full-stack projects by Nkosinathi Msimango: Mend (community outage reporting), Triage (multi-tenant helpdesk SaaS), Power Planner (outage planner PWA), Taskboard and WIL Connect.">
+  <meta name="description" content="Full-stack projects by Nkosinathi Msimango: Kasi Jobs (local jobs platform), Mend (community outage reporting), Triage (multi-tenant helpdesk SaaS), Power Planner (outage planner PWA), Taskboard and WIL Connect.">
   <meta name="theme-color" content="#FFC52E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
       </ul>
     </nav>
     <h1 class="page-title"><span class="line"><span>Projects</span></span></h1>
-    <p class="page-intro">Five full-stack projects, from a community reporting platform and a multi-tenant SaaS to an offline-first outage planner and my final-year placement platform.</p>
+       <p class="page-intro">Six full-stack projects, from a local jobs platform and a community reporting app to a multi-tenant SaaS, an offline-first outage planner and my final-year placement platform.</p>
   </div>
 </header>
 
@@ -35,7 +35,20 @@
   <section class="section">
     <div class="wrap">
       <div class="list">
-
+        <article class="project">
+          <div class="project-head">
+            <h3>Kasi Jobs</h3>
+            <p class="meta">Local jobs platform for Piet Retief (eMkhondo), 2026</p>
+          </div>
+          <div class="project-body">
+            <p>A jobs platform for a small town where work is mostly found by word of mouth. Job seekers browse approved jobs by township or village and type of work, and save the alerts they care about. Employers and admins each get their own screens.</p>
+            <p>Employers cannot post jobs until an admin has verified them. They upload an ID, proof that the business exists and proof of address, which are stored privately and opened by admins through five-minute signed links. Roles are enforced on the server, so a signed-in employer is refused the public job list and sees only their own jobs and verification status.</p>
+            <p>An alert engine matches each approved job to subscribers by area and type of work, with consent flags and a delivery log. SMS and email sending is being connected.</p>
+            <p class="stack">Flutter (web), Python, FastAPI, PostgreSQL (Neon), JWT, bcrypt, Render, Vercel</p>
+            <a class="link" href="https://kasi-jobs-app.vercel.app" target="_blank" rel="noopener">Open live demo</a> &nbsp;·&nbsp; <a class="link" href="https://github.com/Jayday0707-MNC/kasi-jobs" target="_blank" rel="noopener">View code on GitHub</a>
+            <a class="link" href="https://kasi-jobs-app.vercel.app" target="_blank" rel="noopener">Open live demo</a> &nbsp;·&nbsp; <a class="link" href="https://github.com/Jayday0707-MNC/kasi-jobs" target="_blank" rel="noopener">View code on GitHub</a>
+          </div>
+        </article>
         <article class="project">
           <div class="project-head">
             <h3>Mend</h3>
